@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100px;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+}
+
+.header__section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 7rem;
+    background-color: #FFFFFF;
+}
+
+.logo__section {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.first__name {
+    margin: 10px;
+    background-color: #000;
+    padding: 0 5px;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+.last__name {
+    padding: 10px 0;
+}
+
+.navbar__section {
+
+    padding: 0 5rem;
+    margin: 1rem 2rem;
+}
+
+.navitem {
+    margin: 0 1rem;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+.navitem:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+
+.landing__section .main__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    margin-top: 15rem;
+    font-weight: 700;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+.introduced {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+.main__section .bxl-github {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.about__me {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__me .image__sectiom {
+    width: 40%;
+    text-align: center;
+}
+
+.about__me .image__sectiom img {
+    width: 470px;
+    border-radius: 50%;
+}
+
+.image__sectiom img {
+    margin-top: 5rem;
+}
+
+.about__me .about {
+    width: 60%;
+}
+
+.about {
+    margin: 20px;
+    padding: 70px;
+}
+
+.about .about__head {
+    padding: 35px 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about__me .about p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .btn {
+    margin: 10px 0;
+    padding: 13px 25px;
+    background-color: #4B3BC9;
+    color: #FFFF;
+    text-transform: uppercase;
+    border: none;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.skill__section {
+    width: 100%;
+    height: 500px;
+    padding: 0 10rem;
+
+}
+
+.my__skill {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.skill__container {
+    width: 100%;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+}
+
+.skill__name {
+    padding: 10px;
+}
+
+.skill {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+}
+
+.skills p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.html {
+    width: 90%;
+    background-color: #5B4CCE;
+}
+
+.css {
+    width: 80%;
+    background-color: #5B4CCE;
+}
+
+.js {
+    width: 65%;
+    background-color: #5B4CCE;
+}
+
+.nodejs {
+    width: 60%;
+    background-color: #5B4CCE;
+}
+
+.project__section {
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.project {
+    width: 420px;
+    text-align: center;
+    background-color: #2C3A58;
+    border-radius: 10px;
+}
+
+.project .image img {
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+.project .project__title {
+    margin-top: 10px;
+    color: #EEEEEE;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project__lang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project__lang p {
+    margin: 5px 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #DDDDDD;
+}
+
+.project .project__icon a i {
+    font-size: 30px;
+    font-weight: 300;
+    color: #DDDDDD;
+
+}
+
+.section__contectt {
+    width: 100%;
+    height: 150px;
+}
+
+.content__heading {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contect__item {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.item__list .facebook {
+    color: #1196F5;
+}
+
+.item__list .youtube {
+    color: #FE0100;
+}
+
+.item__list .github {
+    color: #000000;
+}
+
+.item__list .gmail {
+    color: #FE0100;
+}
+
+.footer__section {
+    width: 100%;
+    height: 100px;
+    background-color: #EEEEEE;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
