@@ -14,7 +14,6 @@ img {
 
 .section {
     width: 100%;
-    height: 100vh;
 }
 
 .header__section {
@@ -24,15 +23,15 @@ img {
     width: 100%;
     display: flex;
     justify-content: space-between;
-
-    padding: 0 7rem;
+    align-items: center;
+    padding: 10px 7rem;
     background-color: #FFFFFF;
 }
 
 .logo__section {
     display: flex;
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 700;
 
 }
@@ -59,7 +58,8 @@ img {
 .navitem {
     margin: 0 1rem;
     padding: 15px;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 400;
     font-family: 'Poppins', sans-serif;
     color: #000000;
 }
@@ -67,6 +67,11 @@ img {
 .navitem:hover {
     background-color: rgb(230, 230, 230);
     border-radius: 10px;
+}
+
+.landing__section {
+    width: 100%;
+    height: 100vh;
 }
 
 .landing__section .main__section {
@@ -80,14 +85,14 @@ img {
 .title {
     margin-top: 15rem;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 64px;
     font-family: 'Poppins', sans-serif;
     color: #000000;
 }
 
 .introduced {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
     color: #000000;
 }
@@ -108,12 +113,12 @@ img {
 }
 
 .about__me .image__sectiom img {
-    width: 470px;
+    width: 400px;
     border-radius: 50%;
 }
 
 .image__sectiom img {
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 .about__me .about {
@@ -127,13 +132,13 @@ img {
 
 .about .about__head {
     padding: 35px 0;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
 }
 
 .about__me .about p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
@@ -148,7 +153,7 @@ img {
 }
 
 .btn {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 
@@ -156,14 +161,13 @@ img {
 
 .skill__section {
     width: 100%;
-    height: 500px;
-    padding: 0 10rem;
+    padding: 3rem 10rem;
 
 }
 
 .my__skill {
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
 
@@ -193,8 +197,7 @@ img {
 
 .skills p {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 16px;
 }
 
 .html {
@@ -226,20 +229,26 @@ img {
 }
 
 .project {
-    width: 420px;
-    text-align: center;
+    width: 400px;
     background-color: #2C3A58;
     border-radius: 10px;
 }
 
-.project .image img {
-    margin-top: 20px;
+.project .image {
     width: 400px;
     height: 200px;
 }
 
+.project .image img {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
 .project .project__title {
-    margin-top: 10px;
+    margin-top: 30px;
+    padding: 0 5px;
     color: #EEEEEE;
     font-size: 20px;
     font-weight: 400;
@@ -248,16 +257,21 @@ img {
 
 .project__lang {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .project__lang p {
-    margin: 5px 10px;
-    padding: 5px;
+    margin: 5px 5px;
+    padding: 5px 5px 5px;
     font-size: 20px;
     font-weight: 500;
     background-color: #DDDDDD;
+}
+
+.project__icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .project .project__icon a i {
